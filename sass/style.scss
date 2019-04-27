@@ -23,7 +23,7 @@ section {
         border-bottom: none;
         cursor: pointer;
 
-        + div {
+        +div {
             height: 0;
             overflow: hidden;
             border: 1px solid #bbb;
@@ -32,7 +32,7 @@ section {
         }
 
         &.active {
-            + div {
+            +div {
                 height: 100px;
                 overflow: auto;
             }
